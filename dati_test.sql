@@ -20,7 +20,7 @@ INSERT INTO Prenotazione (Nome, Cognome, Email, Telefono, ID_volo, ID_posto) VAL
 ('Luca', 'Bianchi', 'luca.bianchi@email.com', '0987654321', 2, 3),
 ('Giulia', 'Verdi', 'giulia.verdi@email.com', '3456789123', 3, 5);
 
-INSERT INTO Bagaglio (ID_prenotazione, Tipo, Prezzo) VALUES
+INSERT INTO Bagaglio (ID_prenotazione, Tipo) VALUES
 (1, 'Stiva'),
 (2, 'Cabina'),
 (3, 'Standard');
