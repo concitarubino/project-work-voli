@@ -31,7 +31,7 @@ dove inserire user e password personali
 
 1.Installa le dipendenze:
 ```bash
-pip install fastapi uvicorn pymysql python-dotenv
+pip install -r requirements.txt
 ```
 2.Avvia il server con:
 ```bash
@@ -45,15 +45,16 @@ per usare l’API da interfaccia grafica tramite Swagger UI.
 
 ## Funzionalità
 
-- Ricerca voli per città e data
-- Prenotazione e gestione dei posti
-- Pagamento e generazione biglietto
-- Visualizzazione dei biglietti per cliente
-- Gestione automatica degli scali e della durata dei voli
+- Ricerca voli per città e data, con gestione degli scali
+- Prenotazione con assegnazione automatica del codice e calcolo del prezzo
+- Pagamento e generazione automatica del biglietto
+- Controllo reale dei posti disponibili (evita doppie prenotazioni)
+- Visualizzazione biglietti e prenotazioni per cliente
+- Query SQL avanzate integrate negli endpoint (JOIN, GROUP_CONCAT, COALESCE…)
 
 ---
 
 ## Autrice
 
 Concetta Rubino  
-https://github.com/concitarubino
+GitHub → https://github.com/concitarubino
