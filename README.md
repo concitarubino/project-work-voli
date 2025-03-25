@@ -20,7 +20,8 @@ L'obiettivo è la progettazione di uno schema di persistenza dei dati a supporto
 
 ## Configurazione ambiente
 Per collegarti al database, crea un file .env nella root del progetto con:
-DATABASE_URL=mysql+pymysql://user:password@localhost/trasporto_aereo
+DATABASE_URL=mysql+pymysql://<user>:<password>@localhost/trasporto_aereo
+
 dove inserire credenziali personali
 
 ---
