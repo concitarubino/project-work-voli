@@ -34,15 +34,15 @@ dove inserire user e password personali
 
 2. Esegui il file dati_test.sql per popolare le tabelle statiche
 
-3.Installa le dipendenze:
+3. Installa le dipendenze:
 ```bash
 pip install fastapi uvicorn pymysql python-dotenv
 ```
-4.Avvia il server con:
+4. Avvia il server con:
 ```bash
 python main.py
 ```
-5.Apri il browser e vai su:
+5. Apri il browser e vai su:
 http://127.0.0.1:8000/docs
 per usare l’API da interfaccia grafica tramite Swagger UI.
 
