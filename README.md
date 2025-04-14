@@ -12,7 +12,8 @@ L'obiettivo è la progettazione di uno schema di persistenza dei dati a supporto
 - `modelli.py`, `schemi.py` → Modelli SQLAlchemy e schemi Pydantic
 - `configurazione.py` → parametri di connessione al database
 - `database.sql` → Script per la creazione delle tabelle e degli indici
-- `dati_test.sql` → Script con dati di test realistici
+- `dati_test.sql` → Dati test realistici (aeroporti, voli, scali, clienti, posti)
+- `test_api.json` → Simulazioni API (prenotazioni, bagagli, pagamenti)
 - `query_test.sql` → Query sql che ho utilizzato in crud.py
 - `Diagramma E-R.png` → Schema E-R del database
 
@@ -29,15 +30,19 @@ dove inserire user e password personali
 
 ## Come avviare il progetto
 
-1.Installa le dipendenze:
+1. Esegui il file database.sql per creare la struttura del database e gli indici
+
+2. Esegui il file dati_test.sql per popolare le tabelle statiche
+
+3.Installa le dipendenze:
 ```bash
-pip install -r requirements.txt
+pip install fastapi uvicorn pymysql python-dotenv
 ```
-2.Avvia il server con:
+4.Avvia il server con:
 ```bash
 python main.py
 ```
-3.Apri il browser e vai su:
+5.Apri il browser e vai su:
 http://127.0.0.1:8000/docs
 per usare l’API da interfaccia grafica tramite Swagger UI.
 
