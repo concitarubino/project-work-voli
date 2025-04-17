@@ -1,0 +1,72 @@
+[
+    {
+      "endpoint": "POST /prenotazioni",
+      "body": {
+        "ID_cliente": 1,
+        "ID_volo": 1,
+        "ID_posto": 1
+      }
+    },
+    {
+      "endpoint": "POST /prenotazioni",
+      "body": {
+        "ID_cliente": 2,
+        "ID_volo": 2,
+        "ID_posto": 3
+      }
+    },
+    {
+      "endpoint": "POST /prenotazioni",
+      "body": {
+        "ID_cliente": 3,
+        "ID_volo": 3,
+        "ID_posto": 5
+      }
+    },
+    {
+      "endpoint": "POST /bagagli",
+      "body": {
+        "ID_prenotazione": 1,
+        "Tipo": "Stiva"
+      }
+    },
+    {
+      "endpoint": "POST /bagagli",
+      "body": {
+        "ID_prenotazione": 2,
+        "Tipo": "Cabina"
+      }
+    },
+    {
+      "endpoint": "POST /bagagli",
+      "body": {
+        "ID_prenotazione": 3,
+        "Tipo": "Standard"
+      }
+    },
+    {
+      "endpoint": "POST /pagamenti",
+      "body": {
+        "ID_prenotazione": 1,
+        "Metodo": "CreditCard",
+        "Stato": "Completato"
+      }
+    },
+    {
+      "endpoint": "POST /pagamenti",
+      "body": {
+        "ID_prenotazione": 2,
+        "Metodo": "PayPal",
+        "Stato": "Completato"
+      }
+    },
+    {
+      "endpoint": "POST /pagamenti",
+      "body": {
+        "ID_prenotazione": 3,
+        "Metodo": "ApplePay",
+        "Stato": "Rifiutato"
+      }
+    }
+  ]
+  
