@@ -1,8 +1,22 @@
 -- CREAZIONE DATABASE
-CREATE DATABASE trasporto_aereo;
+CREATE DATABASE IF NOT EXISTS trasporto_aereo;
 USE trasporto_aereo;
 
 -- CREAZIONE TABELLE Aeroporto, Volo, Scalo, Posto, Prenotazione, Bagaglio, Pagamento, Biglietto
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+DROP TABLE IF EXISTS Biglietto;
+DROP TABLE IF EXISTS Pagamento;
+DROP TABLE IF EXISTS Bagaglio;
+DROP TABLE IF EXISTS Prenotazione;
+DROP TABLE IF EXISTS Posto;
+DROP TABLE IF EXISTS Cliente;
+DROP TABLE IF EXISTS Scalo;
+DROP TABLE IF EXISTS Volo;
+DROP TABLE IF EXISTS Aeroporto;
+
+SET FOREIGN_KEY_CHECKS = 1;
 
 CREATE TABLE Aeroporto (
     ID_aeroporto INT AUTO_INCREMENT PRIMARY KEY,

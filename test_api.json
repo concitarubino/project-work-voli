@@ -7,6 +7,7 @@
         "ID_posto": 1
       }
     },
+
     {
       "endpoint": "POST /prenotazioni",
       "body": {
@@ -15,6 +16,7 @@
         "ID_posto": 3
       }
     },
+
     {
       "endpoint": "POST /prenotazioni",
       "body": {
@@ -23,6 +25,7 @@
         "ID_posto": 5
       }
     },
+
     {
       "endpoint": "POST /bagagli",
       "body": {
@@ -30,6 +33,7 @@
         "Tipo": "Stiva"
       }
     },
+
     {
       "endpoint": "POST /bagagli",
       "body": {
@@ -37,6 +41,7 @@
         "Tipo": "Cabina"
       }
     },
+
     {
       "endpoint": "POST /bagagli",
       "body": {
@@ -44,6 +49,7 @@
         "Tipo": "Standard"
       }
     },
+
     {
       "endpoint": "POST /pagamenti",
       "body": {
@@ -52,6 +58,7 @@
         "Stato": "Completato"
       }
     },
+
     {
       "endpoint": "POST /pagamenti",
       "body": {
@@ -60,6 +67,7 @@
         "Stato": "Completato"
       }
     },
+    
     {
       "endpoint": "POST /pagamenti",
       "body": {

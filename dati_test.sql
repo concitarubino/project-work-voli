@@ -1,3 +1,5 @@
+USE trasporto_aereo;
+
 INSERT INTO Aeroporto (Nome, Citta, Codice_IATA) VALUES
 ('Aeroporto di Roma Fiumicino', 'Roma', 'FCO'),
 ('Aeroporto di Milano Malpensa', 'Milano', 'MXP'),
