@@ -13,7 +13,7 @@ L'obiettivo è la progettazione di uno schema di persistenza dei dati a supporto
 - `configurazione.py` → parametri di connessione al database
 - `database.sql` → Script per la creazione delle tabelle e degli indici
 - `dati_test.sql` → Dati test realistici (aeroporti, voli, scali, clienti, posti)
-- `test_api.json` → Simulazioni API (prenotazioni, bagagli, pagamenti)
+- `test_api.json` → Richieste precompilate per testare l'API tramite Swagger (prenotazioni, bagagli, pagamenti)
 - `query_test.sql` → Query sql che ho utilizzato in crud.py
 - `Diagramma E-R.png` → Schema E-R del database
 
@@ -46,6 +46,8 @@ python main.py
 http://127.0.0.1:8000/docs
 per usare l’API da interfaccia grafica tramite Swagger UI.
 
+6. Puoi usare il file `test_api.json` per eseguire rapidamente dei test tramite Swagger UI.
+
 ---
 
 ## Funzionalità
@@ -63,3 +65,5 @@ per usare l’API da interfaccia grafica tramite Swagger UI.
 
 Concetta Rubino  
 GitHub → https://github.com/concitarubino
+
+
